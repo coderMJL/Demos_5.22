@@ -9,13 +9,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Class/ViewController.m"
-            timestampString = "485518946.069891"
+            filePath = "KVo/ViewController.m"
+            timestampString = "485529484.55318"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "-ex_registerClassPair"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KVo/ViewController.m"
-            timestampString = "485529484.55318"
+            filePath = "Class/ViewController.m"
+            timestampString = "485666429.631451"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-ex_registerClassPair"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
