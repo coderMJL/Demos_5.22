@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Class/ViewController.m"
-            timestampString = "485666429.631451"
+            timestampString = "485926242.408756"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "-ex_registerClassPair"
             landmarkType = "5">
          </BreakpointContent>

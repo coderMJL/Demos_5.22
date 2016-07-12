@@ -76,6 +76,19 @@ void TestMetaClass(id self, SEL _cmd)
         testObj = [testObj valueForKey:@"isa"];
         NSLog(@"%p  %@", testObj, testObj);
     }
-    class_createInstance(NSString.class, sizeof(unsigned));
+    //    class_createInst[[self class]class]qance(NSString.class, sizeof(unsigned));
+    //    objc_msgSend(self, @selector(viewDidLoad))
+
+    Method m = [self methodForSelector:@selector(viewDidLoad)];
+    void (*p)() = m;
+    p();
+
+    IMP imp = imp_implementationWithBlock(^(id obj, NSString *str) {
+        NSLog(@"%@", str);
+    });
+    //    class_addMethod(MyRuntimeBlock.class, @selector(testBlock:), imp, "v@:@");
+    //
+    //    MyRuntimeBlock *runtime = [[MyRuntimeBlock alloc] init];
+    //    [runtime performSelector:@selector(testBlock:) withObject:@"hello world!"];
 }
 @end
